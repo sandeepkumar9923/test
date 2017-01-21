@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1792742" started-at="2017-01-08T11:37:35Z" finished-at="2017-01-08T12:07:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1792742" started-at="2017-01-08T11:37:35Z" finished-at="2017-01-08T12:07:28Z">
+      <class name="test.Finallist">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.Finallist@66a3ffec]" name="beforeTest" is-config="true" duration-ms="5994" started-at="2017-01-08T17:07:35Z" finished-at="2017-01-08T17:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:test.Finallist@66a3ffec]" name="Login" duration-ms="18031" started-at="2017-01-08T17:07:41Z" description="This method contains login and printgroups" finished-at="2017-01-08T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="groupscheck()[pri:0, instance:test.Finallist@66a3ffec]" name="groupscheck" duration-ms="1768692" started-at="2017-01-08T17:07:59Z" finished-at="2017-01-08T17:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupscheck -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.Finallist@66a3ffec]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-01-08T17:37:28Z" finished-at="2017-01-08T17:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.Finallist -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
