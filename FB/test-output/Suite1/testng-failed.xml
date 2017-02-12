@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="column" value="URL"/>
+  <parameter name="username" value="mou"/>
+  <test name="test1(failed)">
+    <parameter name="column" value="URL"/>
+    <parameter name="username" value="mou"/>
+    <classes>
+      <class name="AP.RunProgram">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- AP.RunProgram -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
