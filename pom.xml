@@ -54,7 +54,7 @@
          <version>2.18</version>
          <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>Run.xml</suiteXmlFile>
+              <suiteXmlFile>${basedir}/Run.xml</suiteXmlFile>
             </suiteXmlFiles>
          </configuration>
        </plugin>
