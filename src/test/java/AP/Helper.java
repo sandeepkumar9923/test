@@ -36,7 +36,7 @@ public String Texttobeposted ;
 		 * FirefoxDriver();
 		 */
 		Texttobeposted = ExcelDataDetails.get("text");
-		File pathToBinary = new File("C:\\Program Files\\firefox-sdk\\bin\\firefox.exe");
+		File pathToBinary = new File("C:/Program Files (x86)/Mozilla Firefox/firefox.exe");
 		FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
 		FirefoxProfile firefoxProfile = new FirefoxProfile();
 		 driver = new FirefoxDriver(ffBinary, firefoxProfile);
